@@ -1,6 +1,12 @@
 SET LINESIZE 500
 SET PAGESIZE 1000
 
+prompt *************************
+prompt ** Database properties **
+prompt *************************
+
+prompt
+
 COLUMN property_name FORMAT A35
 COLUMN property_value FORMAT A35
 COLUMN description FORMAT A70

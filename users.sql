@@ -3,7 +3,7 @@
 SET LINESIZE 200
 SET PAGESIZE 1000
 
-COLUMN username FORMAT A20
+COLUMN username FORMAT A30
 COLUMN account_status FORMAT A25
 COLUMN lock_date FORMAT A11
 COLUMN expiry_date FORMAT A11
@@ -11,6 +11,12 @@ COLUMN created FORMAT A11
 COLUMN default_tablespace FORMAT A15
 COLUMN temporary_tablespace FORMAT A15
 COLUMN profile FORMAT A15
+
+prompt ***************
+prompt ** Users **
+prompt ***************
+
+prompt
 
 SELECT username,
        account_status,

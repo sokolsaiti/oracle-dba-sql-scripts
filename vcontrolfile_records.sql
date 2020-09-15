@@ -3,6 +3,13 @@ SET PAGESIZE 1000
 
 COLUMN type FORMAT A30
 
+
+prompt **************************
+prompt ** Control file records **
+prompt **************************
+
+prompt
+
 select r.type,
        r.record_size,
        r.records_total,

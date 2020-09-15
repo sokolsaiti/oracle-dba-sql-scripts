@@ -10,6 +10,12 @@ COLUMN object_name FORMAT A30
 COLUMN object_type FORMAT A15
 
 
+prompt *****************************
+prompt ** User Objects privileges **
+prompt *****************************
+
+prompt
+
 select a.username,
        a.granted_role,
        a.object_type,

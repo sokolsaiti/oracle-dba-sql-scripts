@@ -6,6 +6,12 @@ COLUMN status FORMAT A15
 COLUMN enabled FORMAT A15
 COLUMN checkpoint_time FORMAT A20
 
+prompt ***************
+prompt ** v$Datafiles **
+prompt ***************
+
+prompt
+
 select d.file# file_id,
        d.name file_name,
        round(d.bytes/1024/1024/1024) size_gb,

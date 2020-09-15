@@ -7,6 +7,12 @@ COLUMN owner FORMAT A20
 COLUMN directory_name FORMAT A25
 COLUMN directory_path FORMAT A80
 
+prompt *****************
+prompt ** Directories **
+prompt *****************
+
+prompt
+
 select d.owner,
        d.directory_name,
        d.directory_path

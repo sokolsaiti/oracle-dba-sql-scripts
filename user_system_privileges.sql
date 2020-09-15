@@ -8,6 +8,12 @@ COLUMN username FORMAT A15
 COLUMN granted_role FORMAT A25
 COLUMN privilege FORMAT A25
 
+prompt ****************************
+prompt ** User system privileges **
+prompt ****************************
+
+prompt
+
 select a.username,
        a.granted_role,
        a.privilege 

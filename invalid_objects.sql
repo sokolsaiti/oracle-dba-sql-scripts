@@ -8,7 +8,11 @@ COLUMN object_type FORMAT A15
 COLUMN object_name FORMAT A50
 COLUMN status FORMAT A10
 
+prompt *********************
+prompt ** Invalid objects **
+prompt *********************
 
+prompt
 SELECT owner,
        object_type,
        object_name,

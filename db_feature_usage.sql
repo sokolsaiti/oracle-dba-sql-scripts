@@ -4,6 +4,12 @@ SET PAGESIZE 1000
 COLUMN name  FORMAT A60
 
 
+prompt ****************************
+prompt ** Database feature usage **
+prompt ****************************
+
+prompt
+
 SELECT u1.name,
        u1.detected_usages,
        u1.currently_used,

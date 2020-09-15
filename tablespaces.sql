@@ -1,6 +1,10 @@
 
 SET LINESIZE 200
+prompt *****************
+prompt ** Tablespaces **
+prompt *****************
 
+prompt
 SELECT tablespace_name,
        block_size,
        extent_management,

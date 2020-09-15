@@ -5,6 +5,12 @@ COLUMN file_name FORMAT A70
 COLUMN status FORMAT A15
 COLUMN autoextensible FORMAT A3
 
+prompt ***************
+prompt ** Datafiles **
+prompt ***************
+
+prompt
+
 SELECT file_id,
        file_name,
        round(bytes/1024/1024/1024) AS size_gb,

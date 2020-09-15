@@ -9,6 +9,11 @@ COLUMN action_time FORMAT A22
 COLUMN status FORMAT A10
 COLUMN version FORMAT A8
 
+prompt **********************
+prompt ** SQLPatch History **
+prompt **********************
+
+prompt
 
 select r.patch_id,
        r.action,
